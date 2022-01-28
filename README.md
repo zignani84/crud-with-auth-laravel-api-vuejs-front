@@ -2,6 +2,8 @@
 
 ## Database
 Criar uma base de dados local chamada `laravel_vuejs_test`
+* Usuario: `root`
+* Senha: `em branco`
 
 ## Tecnologias API
 * PHP 8

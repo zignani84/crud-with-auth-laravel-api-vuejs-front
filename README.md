@@ -6,7 +6,7 @@ Criar uma base de dados local chamada `laravel_vuejs_test`
 * Senha: `em branco`
 
 ## Tecnologias API
-* PHP 8
+* PHP 7.4
 * Laravel 8
 * MySQL 8
 * NodeJS 14+

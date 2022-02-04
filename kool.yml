@@ -3,6 +3,7 @@ scripts:
   composer: kool exec app composer
   mysql: kool exec -e MYSQL_PWD=$DB_PASSWORD database mysql -u $DB_USERNAME $DB_DATABASE
   node-setup:
+  - kool run npm install npm@latest
   - kool run npm install
   - kool run npm run dev
   npm: kool docker kooldev/node:14 npm
